@@ -234,6 +234,12 @@ canvas {
         top: 350px;
         left: 200px;
     }
+    #calendar-image {
+        width: 96px;
+        height: 96px;
+        top: 10px;
+        left: 10px;
+    }
 
 }
 @media (max-width: 768px) {
