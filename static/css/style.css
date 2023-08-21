@@ -266,7 +266,13 @@ canvas {
     }
     #calendar-container {
         width: 300px;
-        top: 350px;
-        left: 75px;
+        top: 100px;
+        left: 10px;
+    }
+    #calendar-image {
+        width: 96px;
+        height: 96px;
+        top: 10px;
+        left: 10px;
     }
 }
