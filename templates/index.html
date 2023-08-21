@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <title>NewYearCountdown</title>
+</head>
+<body>
+    <header>
+        <h1>New Year Countdown:</h1>
+    </header>
+    <main>
+        <section id="calendar-section">
+            <div id="calendar-image">
+                <img src="/static/images/calendar_image.png" alt="new-year-calendar"/>
+            </div>
+            <div id="calendar-container">
+                <nav id="calendar-nav">
+                    <button id="left-arrow">&lsaquo; Back</button>
+                    <h5></h5>
+                    <button id="right-arrow">Next &rsaquo;</button>
+                </nav>
+                <hr>
+                <div id="weekdays">
+                    <div class="box"><p>Sun</p></div>
+                    <div class="box"><p>Mon</p></div>
+                    <div class="box"><p>Tue</p></div>
+                    <div class="box"><p>Wed</p></div>
+                    <div class="box"><p>Thu</p></div>
+                    <div class="box"><p>Fri</p></div>
+                    <div class="box"><p>Sat</p></div>
+                </div>
+                <hr>
+                <div id="calendar"></div>
+            </div>
+        </section>
+        <div class="main-container">
+            <section id="days">
+                <h2>00</h2>
+                <span>Days</span>
+            </section>
+            <section id="hours">
+                <h2>00</h2>
+                <span>Hours</span>
+            </section>
+            <section id="minutes">
+                <h2>00</h2>
+                <span>Minutes</span>
+            </section>
+            <section id="seconds">
+                <h2>00</h2>
+                <span>Seconds</span>
+            </section>
+        </div>
+        <div id="switch-container">
+            <label id="switch-label">
+                <input type="checkbox" id="switch-input">
+                <span id="switch-slider"></span>
+            </label>
+            <small>Snow</small>
+        </div>
+        <canvas id="snowfall-canvas"></canvas>
+    </main>
+    <!-- <div id="snowfall-container"></div> -->
+    <script src="/static/js/countdown.js"></script>
+    <script src="/static/js/snowfall2.js"></script>
+    <script src="/static/js/calendar2.js"></script>
+</body>
+</html>
