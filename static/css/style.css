@@ -249,9 +249,15 @@ canvas {
         height: 50px;
     }
     #calendar-container {
-        width: 440px;
-        top: 300px;
-        left: 150px;
+        width: 300px;
+        top: 100px;
+        left: 10px;
+    }
+    #calendar-image {
+        width: 96px;
+        height: 96px;
+        top: 10px;
+        left: 10px;
     }
 }
 @media (max-width: 425px) {
